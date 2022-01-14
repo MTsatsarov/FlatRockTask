@@ -1,0 +1,20 @@
+.single-result {
+  width: 50%;
+}
+.single-result h2 {
+  font-size: 25px;
+  color: rgb(255, 19, 19);
+}
+.single-result p {
+  color: rgb(165, 165, 165);
+
+  font-size: 22px;
+}
+.single-result strong {
+  color: rgb(83, 83, 83);
+}
+.correct strong {
+    background-color: rgb(10, 195, 10);
+    padding: 5px;
+    border-radius: 8px;
+}

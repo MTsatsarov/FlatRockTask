@@ -1,0 +1,31 @@
+.finish-result {
+  margin: 20px auto;
+  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.finish-result article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.finish-result article button {
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 12px;
+  width: 120px;
+  font-size: 16px;
+}
+.finish-result article p {
+    font-size: 22px;
+    color: rgb(114, 114, 114);
+    font-weight: bold;
+}
+.all-wrap button {
+  background-color: rgb(255, 255, 108);
+}
+button[name="create-btn"] {
+  background-color: rgb(0, 119, 63);
+  border: 2px solid black;
+}

@@ -1,0 +1,92 @@
+.quote-wrapper {
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50%;
+  border: 2px solid black;
+}
+.quote-wrapper p {
+    cursor: default;
+
+}
+.quote-wrapper button {
+  cursor: pointer;
+}
+.mode-section {
+  width: 100%;
+  display: flex;
+}
+.mode-section button {
+  font-size: 35px;
+  width: 50%;
+  border: none;
+  color: white;
+}
+.mode-section button[name="binary"] {
+  background-color: rgb(87, 87, 87);
+}
+.mode-section button[name="multiple-choice"] {
+  background-color: rgb(22, 22, 22);
+}
+.question-article p {
+  font-size: 24px;
+  color: rgb(165, 165, 165);
+}
+.question-article > .quote {
+  background-color: rgb(138, 56, 153);
+  border-radius: 8px;
+  padding: 12px;
+  color: rgb(194, 194, 194);
+  font-size: 22px;
+  font-weight: bold;
+}
+form {
+  padding: 15px;
+}
+.answers-wrapper {
+  flex-basis: 20px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.answers-wrapper button {
+  text-align: start;
+  background-color: rgb(223, 190, 245);
+  margin: 5px;
+  padding-left: 13px;
+  width: 60%;
+  border-radius: 12px;
+  border: none;
+  min-height: 25px;
+  font-size: 18px;
+  align-items: center;
+}
+.binary-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.binary-wrapper p {
+    font-size: 20px;
+    
+}
+.binary-buttons-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.binary-buttons-box button {
+  width: 80px;
+  height: 40px;
+  font-size: 25px;
+  border-radius: 12px;
+  border: none;
+}
+button[name=binary-correct] {
+  background-color: rgb(3, 197, 3);
+}
+button[name=binary-wrong] {
+    background-color: red;
+}

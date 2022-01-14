@@ -1,0 +1,8 @@
+.answer-label {
+    font-size: 22px;
+    font-weight: bolder;
+    color:rgb(122, 122, 122)
+}
+.radio-div {
+    display: flex;
+}

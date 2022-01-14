@@ -1,0 +1,33 @@
+.all-results-container {
+    display: flex;
+    overflow: scroll;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.result-article {
+    display: flex;
+    align-self: center;
+    margin: 5px;
+    flex-basis: 20%;
+    border: 1px ridge black;
+    align-items: center;
+    padding: 4px;
+}
+.result-article p {
+    margin: 0px;
+    margin-right: 10px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.result-article button {
+    border: none;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(184, 84, 255);
+    border-radius: 50%;
+    width: 90px;
+    padding: 8px;
+    cursor: pointer;
+}
